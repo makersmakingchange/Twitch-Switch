@@ -1,0 +1,3 @@
+Parts J2, J3, XA1, and SW1 are populated by the user and will not be assembled by JLCPCB.
+Part J3 is not depicted in "Component Placement.pdf" because it is on the bottom of the PCB.
+Paste should not be placed on A0, A1, and A2 jumpers below U1. This is for user configuration and will be soldered by the user for multi-channel use.
