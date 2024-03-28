@@ -60,7 +60,7 @@ This build requires two customs PCBS: one custom PCB for the controller and one 
 
 ### 3. Order the Off-The-Shelf Components
 
-The [Bill of Materials](/Documentation/Twitch_Switch_BOM.xlsx) lists all of the parts and components required to build the device.
+The [Bill of Materials](/Documentation/Twitch_Switch_BOM.csv) lists all of the parts and components required to build the device.
 
 
 ### 4. Print the 3D Printable components
@@ -79,8 +79,8 @@ As open source assistive technology, you are welcomed and encouraged to improve 
 | Document             | Version | Link |
 |----------------------|---------|------|
 | Maker Guide          | 1.0     | [Twitch Switch_Maker_Guide](/Documentation/Twitch_Switch_Maker_Guide.pdf)     |
-| Bill of Materials    | 1.0     | [Twitch Switch_Bill_of_Materials](/Documentation/Twitch_Switch_BOM.xlsx)     |
-| User Guide           | 1.0     | [Twitch Switch_User_Guide](/Documentation/Twitch_Switch_Guide.pdf)    |
+| Bill of Materials    | 1.0     | [Twitch Switch_Bill_of_Materials](/Documentation/Twitch_Switch_BOM.csv)     |
+| User Guide           | 1.0     | [Twitch Switch_User_Guide](/Documentation/Twitch_Switch_User_Guide.pdf)    |
 | Changelog            | 1.0     | [Changelog](CHANGES.txt)     |
 
 ### Design Files
