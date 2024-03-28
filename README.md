@@ -98,7 +98,7 @@ Include a copy of the build files intended for manufacturing. This may include s
 ### Build Files
  - [3D Printing Files](/Build_Files/3D_Printing_Files)
  - [PCB Build Files](/Build_Files/PCB_Build_Files)
- - [Firmware Files](/Build/Firmware_Files)
+ - [Firmware Files](/Build_Files/Firmware_Files)
 
 <!---
 ATTRIBUTION
