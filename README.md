@@ -6,15 +6,6 @@ Version 1.1 (2024-Mar-15)
 <!---
 INSTRUCTIONS
 This is a markdown template for creating the README.md file in a GitHub repository. This file is rendered and displayed automatically when someone visits the repository.
-
-This document includes helper text that will not be displayed when rendered. Any text between the less-than sign + exclamation mark + three hyphen-minus (<!---) and matching three hyphen-minus + greater-than sign will not be displayed. This helper text can be deleted once the corresponding section is completed.
-
-This template has a number of fields that can be searched and replaced with other text:
- - Twitch_Switch Replace this with filename-friendly version of the device with underscores. e.g., Open_Wobble_Switch
- - Twitch Switch Replace this with the human-readable name of the device with spaces. e.g., Open Wobble Switch
- - Stan Cassidy Center for Rehabilitation Replace this with the person or organization responsible for the design. e.g., John Doe.
- - https://github.com/makersmakingchange/Twitch-Switch Replace this with the web address for the repository. e.g., (e.g., https://github.com/makersmakingchange/Open-Wobble-Switch))
- - <MMCWebLink> This is an alphanumeric id for the Makers Making Change Website. e.g., 01tJR000000698oYAA. This will come from MMC staff.  
  --->  
  
  <!--- 
@@ -27,21 +18,21 @@ Should match the name of the GitHub repository. Choose something descriptive rat
 SUMMARY
 A brief summary of the project. What it does, who it is for, how much it costs.
  --->
-The Twitch Switch is for users with limited movement capabilities, and has two main functions: activating switch adapted devices or emulating a mouse or keyboard to operate a digital device. 
+The Twitch Switch is for users with limited movement capabilities. Up to three small wireless sensors can capture very small movements. The Twitch Switch can be used for activating up to three switch adapted devices or emulating a mouse or keyboard to operate a digital device such as a computer. 
 
-The Twitch Switch works best for someone who is only able to perform small movements. There are three sensors that can be placed wherever the user has the most controlled, repeatable, intentional movement. Sensor placement can include on the user's finger, wrist, foot, or head. 
+The Twitch Switch works best for someone who is only able to perform small movements. There are three sensors that can be placed wherever the user has the most controlled, repeatable, intentional movement. Sensor placement can include on the user's finger, wrist, foot, or head. The sensors are powered by rechargeable batteries and connect wirelessly to a controller. The sensitivity of each sensor can be adjusted using knobs on the controller.
 
-The first way to use the Twitch Switch allows the user to activate up to 3 switch adapted devices. Whenever the corresponding switch is moved (even slightly!), the switch adapted device will be activated.
-
+The first way to use the Twitch Switch allows the user to activate up to 3 switch adapted devices. Whenever the corresponding switch is moved (even slightly!), the switch adapted device will be activated. 
 The second way to use the Twitch Switch is for controlling a digital device such as a computer, tablet, or smartphone. The Twitch Switch can connect via Bluetooth or USB, and has 3 modes: mouse mode, tablet mode, and keyboard mode (which is best for switch control).
 
+The Twitch Switch is intended primarily for people who have some controlled, repeatable, intentional movement, but otherwise have limited mobility and/or dexterity. This device may be beneficial for users with cerebral palsy (CP), spinal cord injuries (SCI), amyotrophic lateral sclerosis (ALS), muscular dystrophy (MD), locked-in syndrome (LIS), traumatic brain injury (TBI), or other disabilities or conditions that significantly limit movement.
 
- The total cost of materials to build this device is around \$360 (plus component shipping). The cost of materials per unit is around \$200 (plus component shipping) if you are able to build in bulk.
+The total cost of materials to build this device is around \$360 (plus component shipping). The cost of materials per unit is around \$200 (plus component shipping) if you are able to build in bulk.
 
-<img src="Photos/Twitch_Switch.jpg" width="500" alt="Picture of Twitch Switch.">
+<img src="Photos/Twitch_Switch.jpg" width="500" alt="Picture of a Twitch Switch with the controller and three wearable sensors.">
 
 ## More info at
-- [Makers Making Change Assisitive Device Listing](https://www.makersmakingchange.com/s/product/twitch-switch/01tJR000003UiebYAC)
+- [Makers Making Change Assistive Device Library Listing](https://www.makersmakingchange.com/s/product/twitch-switch/01tJR000003UiebYAC)
 
 ## How to Obtain the Device
 ### 1. Do-it-Yourself (DIY) or Do-it-Together (DIT)
@@ -50,7 +41,7 @@ This is an open-source assistive technology, so anyone is free to build it. All 
 
 ### 2. Request a build of this device
 
-You may also submit a build request through the [Makers Making Change Assisitive Device Listing](https://www.makersmakingchange.com/s/product/twitch-switch/01tJR000003UiebYAC) to have a volunteer maker build the device. As the requestor, you are responsible for reimbursing the maker for the cost of materials and any shipping.
+You may also submit a build request through the [Makers Making Change Assistive Device Listing](https://www.makersmakingchange.com/s/product/twitch-switch/01tJR000003UiebYAC) to have a volunteer maker build the device. As the requestor, you are responsible for reimbursing the maker for the cost of materials and any shipping.
 
 ### 3. Build this device for someone else
 
@@ -61,19 +52,22 @@ If you have the skills and equipment to build this device, and would like to don
 
 ### 1. Read through the Maker Guide
 
-The [Maker Guide](/Documentation/Twitch_Switch_Maker_Guide.pdf) contains all the necessary information to build this device, including tool lists, assembly instructions, programming instructions (if applicable) and testing.
+The [Maker Guide](/Documentation/Twitch_Switch_Maker_Guide.pdf) contains all the necessary information to build this device, including tool lists, assembly instructions, programming instructions and testing.
 
+### 2. Order the Custom PCBs
 
-### 2. Order the Off-The-Shelf Components
+This build requires two customs PCBS: one custom PCB for the controller and one custom PCB for each of the three sensors. The sensor PCB has a number of surface mount components and it is recommended to have the PCB fabricator assemble these components on the board.
+
+### 3. Order the Off-The-Shelf Components
 
 The [Bill of Materials](/Documentation/Twitch_Switch_BOM.xlsx) lists all of the parts and components required to build the device.
 
 
-### 3. Print the 3D Printable components
+### 4. Print the 3D Printable components
 
-All of the files and individual print files can be in the [/Build_Files/3D_Printing_Files](/Build_Files/3D_Printing_Files/) folder.
+All of the files and individual print files can be in the [/Build_Files/3D_Printing_Files](/Build_Files/3D_Printing_Files/) folder. Instructions and settings are provided in the 3D Printing Guide section of the [Maker Guide](/Documentation/Twitch_Switch_Maker_Guide.pdf).
 
-### 4. Assemble the Twitch Switch
+### 5. Assemble the Twitch Switch
 
 Reference the [Maker Guide](/Documentation/Twitch_Switch_Maker_Guide.pdf) for the tools and steps required to build each portion.
 
@@ -112,12 +106,11 @@ Provide any necessary attribution for designs or components that are included in
 --->
 ## Attribution
 
-The Lift Switch was designed by Horizon Health’s, Stan Cassidy Centre for Rehabilitation's (SCCR) Rehabilitation Engineering Department.  Development was supported through the Government of Canada's Innovation Science and Economic Development [Accessible Technology Program](https://ised-isde.canada.ca/site/accessible-technology-program). The ATP program enabled SCCR to deploy numerous Twitch Switches to users at reduced cost.
+The Twitch Switch was designed by the Rehabilitation Engineering Department at Horizon Health's, Stan Cassidy Centre for Rehabilitation (SCCR).  Development was supported through the Government of Canada's Innovation Science and Economic Development [Accessible Technology Program](https://ised-isde.canada.ca/site/accessible-technology-program). The ATP program enabled SCCR to deploy numerous Twitch Switches to users at reduced cost.
 
 The latest design (V3.0) incorporates feedback and suggestions from numerous users, clinicians, and volunteer makers.
 
 The latest design incorporates several commercially available open source hardware components from [Adafruit](https://www.adafruit.com/). The Twitch Switch firmware utilizes the [Arduino](https://www.arduino.cc/) development platform, and a number of libraries developed and shared by the open source community.
-
 
 <!---
 This is the attribution for the template.
@@ -129,9 +122,6 @@ CONTRIBUTORS
 List the names of the people that contributed to the design. This could include the original source of the idea, designers, testers, documenters, etc.
 --->
 ### Contributors
-Contributors to this iteration of the Twitch Switch:
-
-Designers: 
 - Rachelle Bernier, Horizon Health Network. 
 - Marla Calder, Horizon Health Network 
 - Natasha Hanson, Horizon Health Network 
@@ -139,10 +129,8 @@ Designers:
 - Rick McCaskill, Horizon Health Network 
 - Billie O'Connor, Horizon Health Network 
 - Kristen Culberson, Horizon Health Network 
-- Josie Versloot, Makers Making Change
+- Josie Versloot, Neil Squire Society / Makers Making Change
  
-
-
 <!---
 LICENSE
 Add the year(s) for the copyright and the Designer Name. You may use the standard set of open licenses or choose your own for the hardware, software, and accompanying materials.
