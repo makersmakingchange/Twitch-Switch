@@ -19,7 +19,7 @@ keywords:
   - accessibility
   - switch-interface
 project-link: https://github.com/makersmakingchange/Twitch-Switch
-image: https://github.com/makersmakingchange/Twitch-Switch/archive/refs/heads/main.zip
+image: https://github.com/makersmakingchange/Twitch-Switch/raw/main/Photos/Twitch_Switch.jpg
 made: true
 made-independently: true
 license:
@@ -68,8 +68,8 @@ development-stage: product
 documentation-home: https://github.com/makersmakingchange/Twitch-Switch
 archive-download: https://github.com/makersmakingchange/Twitch-Switch/archive/refs/heads/main.zip
 design-files:
-  - path: https://github.com/makersmakingchange/LipSync/tree/master/Design_Files/CAD_Design_Files
-    title: LipSync CAD Files
+  - path: https://github.com/makersmakingchange/Twitch-Switch/tree/master/Design_Files/CAD_Design_Files
+    title: Twitch Switch CAD Files
 documentation-language: en-CA
 bom: https://github.com/makersmakingchange/Twitch-Switch/blob/main/Documentation/Twitch_Switch_BOM.csv
 tool-list: https://github.com/makersmakingchange/Twitch-Switch/blob/main/Documentation/Twitch_Switch_Maker_Guide.pdf
