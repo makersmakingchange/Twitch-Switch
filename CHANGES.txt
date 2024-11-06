@@ -1,3 +1,17 @@
+Version 3.1 | 2024-11-06
+ *Sensor programmer:
+	- Updated the wiring diagram and instructions that were not working before
+	- Removed resistor
+	- Replaced the diode with one that is more maker friendly
+
+ - Maker Guide
+	- Corrected the wiring diagram for the Sensor Programmer
+	- Corrected the board name to select when programming the controller
+ - BOM
+	- Removed resistor from sensor programmer
+	- Changed the diode to one that is more maker friendly
+
+
 Version 3.0 | 2024-03-28
  - Initial Release
 
