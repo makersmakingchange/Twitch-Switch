@@ -1,23 +1,11 @@
-<!--- 
-Open Source Assistive Technology: GitHub Readme Template
-Version 1.1 (2024-Mar-15)
- --->
+<!---  Open Source Assistive Technology: GitHub Readme Template Version 1.1 (2024-Mar-15)  --->
 
-<!---
-INSTRUCTIONS
-This is a markdown template for creating the README.md file in a GitHub repository. This file is rendered and displayed automatically when someone visits the repository.
- --->  
+<!--- INSTRUCTIONS This is a markdown template for creating the README.md file in a GitHub repository. This file is rendered and displayed automatically when someone visits the repository.  --->  
  
- <!--- 
-TITLE
-Should match the name of the GitHub repository. Choose something descriptive rather than whimsical. 
- --->
+ <!---  TITLE Should match the name of the GitHub repository. Choose something descriptive rather than whimsical.   --->
 # Twitch Switch
 
-<!--- 
-SUMMARY
-A brief summary of the project. What it does, who it is for, how much it costs.
- --->
+<!---  SUMMARY A brief summary of the project. What it does, who it is for, how much it costs.  --->
 The Twitch Switch is for users with limited movement capabilities. Up to three small wireless sensors can capture very small movements. The Twitch Switch can be used for activating up to three switch adapted devices or emulating a mouse or keyboard to operate a digital device such as a computer. 
 
 The Twitch Switch works best for someone who is only able to perform small movements. There are three sensors that can be placed wherever the user has the most controlled, repeatable, intentional movement. Sensor placement can include on the user's finger, wrist, foot, or head. The sensors are powered by rechargeable batteries and connect wirelessly to a controller. The sensitivity of each sensor can be adjusted using knobs on the controller.
@@ -84,26 +72,17 @@ As open source assistive technology, you are welcomed and encouraged to improve 
 | Changelog            | 1.0     | [Changelog](CHANGES.txt)     |
 
 ### Design Files
-<!---
-DESIGN FILES
-Include a copy of the original design files to facilitate easy editing and customization. Consider also including a generic format (e.g., STEP)
---->
+<!--- DESIGN FILES Include a copy of the original design files to facilitate easy editing and customization. Consider also including a generic format (e.g., STEP) --->
  - [CAD Files](/Design_Files/CAD_Design_Files)
  - [PCB Files](/Design_Files/PCB_Design_Files)
 
-<!---
-BUILD FILES
-Include a copy of the build files intended for manufacturing. This may include svg files for laser cutting, stl files for 3d printing, Gerber files for custom PCBs, and Arduino files for custom firmware
---->
+<!--- BUILD FILES Include a copy of the build files intended for manufacturing. This may include svg files for laser cutting, stl files for 3d printing, Gerber files for custom PCBs, and Arduino files for custom firmware --->
 ### Build Files
  - [3D Printing Files](/Build_Files/3D_Printing_Files)
  - [PCB Build Files](/Build_Files/PCB_Build_Files)
  - [Firmware Files](/Build_Files/Firmware_Files)
 
-<!---
-ATTRIBUTION
-Provide any necessary attribution for designs or components that are included in the device or as part of the project.
---->
+<!--- ATTRIBUTION Provide any necessary attribution for designs or components that are included in the device or as part of the project. --->
 ## Attribution
 
 The Twitch Switch was designed by the Rehabilitation Engineering Department at Horizon Health's, Stan Cassidy Centre for Rehabilitation (SCCR).  Development was supported through the Government of Canada's Innovation Science and Economic Development [Accessible Technology Program](https://ised-isde.canada.ca/site/accessible-technology-program). The ATP program enabled SCCR to deploy numerous Twitch Switches to users at reduced cost.
@@ -117,10 +96,7 @@ This is the attribution for the template.
 --->
 The documentation template was created by Makers Making Change / Neil Squire Society and is used under a CC BY-SA 4.0 license. It is available at the following link: [https://github.com/makersmakingchange/OpenAT-Template](https://github.com/makersmakingchange/OpenAT-Template)
 
-<!---
-CONTRIBUTORS
-List the names of the people that contributed to the design. This could include the original source of the idea, designers, testers, documenters, etc.
---->
+<!--- CONTRIBUTORS List the names of the people that contributed to the design. This could include the original source of the idea, designers, testers, documenters, etc. --->
 ### Contributors
 - Rachelle Bernier, Horizon Health Network. 
 - Marla Calder, Horizon Health Network 
@@ -131,10 +107,7 @@ List the names of the people that contributed to the design. This could include 
 - Kristen Culberson, Horizon Health Network 
 - Josie Versloot, Neil Squire Society / Makers Making Change
  
-<!---
-LICENSE
-Add the year(s) for the copyright and the Designer Name. You may use the standard set of open licenses or choose your own for the hardware, software, and accompanying materials.
---->
+<!--- LICENSE Add the year(s) for the copyright and the Designer Name. You may use the standard set of open licenses or choose your own for the hardware, software, and accompanying materials. --->
 ## License
 Copyright (c) 2020-2024 Stan Cassidy Center for Rehabilitation.
 
@@ -153,6 +126,7 @@ Source Location: https://github.com/makersmakingchange/Twitch-Switch
 
 ---
 
+<!-- ABOUT MMC START -->
 ## About Makers Making Change
 [<img src="https://raw.githubusercontent.com/makersmakingchange/makersmakingchange/main/img/mmc_logo.svg" width="500" alt="Makers Making Change Logo">](https://www.makersmakingchange.com/)
 
@@ -171,3 +145,4 @@ Makers Making Change leverages the capacity of community based Makers, Disabilit
 
 ### Contact Us
 For technical questions, to get involved, or to share your experience we encourage you to [visit our website](https://www.makersmakingchange.com/) or [contact us](https://www.makersmakingchange.com/s/contact).
+<!-- ABOUT MMC END -->
