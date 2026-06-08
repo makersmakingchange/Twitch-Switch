@@ -17,7 +17,7 @@ The Twitch Switch is intended primarily for people who have some controlled, rep
 
 The total cost of materials to build this device is around \$360 (plus component shipping). The cost of materials per unit is around \$200 (plus component shipping) if you are able to build in bulk.
 
-Note: for those located in Canada who are looking to build this device, there are a limited number of parts available for this build free of cost. Please contact the Rehabilitation Engineering Department at the Stan Cassidy Centre for Rehabilitation at SCCRRehabEngineering@horizonnb.ca
+Note: for those located in Canada who are interested in this device, there are a limited number of Twitch Switches available free of cost. Please contact the Rehabilitation Engineering Department at the Stan Cassidy Centre for Rehabilitation at SCCRRehabEngineering@horizonnb.ca
 
 <img src="Photos/Twitch_Switch.jpg" width="500" alt="Picture of a Twitch Switch with the controller and three wearable sensors.">
 
